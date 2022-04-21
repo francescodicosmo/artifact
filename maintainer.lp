@@ -5,7 +5,6 @@
 % For on channel transport predicates (the prefix is ch) the first two components are the channel sender and recipient and the last one is the message multiplicity.
 #program always.
 
-%
 % Global and local network representation, based on network.lp.
 ch(X,X) :- node(X).
 ch(X,Y) :- channel(X,Y).
